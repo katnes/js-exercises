@@ -1,16 +1,47 @@
+//****************************
+//String Challenge
+
 // 1. You can use the `charAt()` method as well as `string[index]` to get the character at a specific index.
 // 2. The `.toUpperCase()` method will make the entire string uppercase
 // 3. `substring()` or `slice()` will return a specific portion of a string
 
-const myString = "developer";
+// const myString = "developer";
 
-let myNewString;
+// let myNewString;
 
-//Solution 1
-myNewString = myString.charAt(0).toUpperCase() + myString.substring(1);
-//Solution 2
-myNewString = myString[0].toUpperCase() + myString.substring(1);
-// Solution 3
-myNewString = `${myString[0].toUpperCase() + myString.substring(1)}`;
+// //Solution 1
+// myNewString = myString.charAt(0).toUpperCase() + myString.substring(1);
+// //Solution 2
+// myNewString = myString[0].toUpperCase() + myString.substring(1);
+// // Solution 3
+// myNewString = `${myString[0].toUpperCase() + myString.substring(1)}`;
 
-console.log(myNewString);
+// console.log(myNewString);
+
+//****************************
+//Number Challenge
+
+let x = Math.floor(Math.random() * 100 + 1);
+
+let y = Math.floor(Math.random() * 50 + 1);
+
+let sum = x + y;
+let sumOutPut = `${x} + ${y} = ${sum}`;
+
+let difference = x - y;
+let differenceOutPut = `${x} - ${y} = ${difference}`;
+
+let product = x * y;
+let productOutPut = `${x} * ${y} = ${product}`;
+
+let quotient = x / y;
+let quotientOutPut = `${x} / ${y} = ${quotient}`;
+
+let remainder = x % y;
+let remainderOutPut = `${x} % ${y} = ${remainder}`;
+
+console.log(sumOutPut);
+console.log(differenceOutPut);
+console.log(productOutPut);
+console.log(quotientOutPut);
+console.log(remainderOutPut);
