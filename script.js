@@ -65,3 +65,52 @@
 // d = new Date(1717978810640);
 
 // console.log(d);
+
+// //array literal
+// const dogsArr = ['Cipher', 'Pixel'];
+
+// //array constructor
+// const dogs = new Array('Cipher', 'Pixel', 'Neo', 'Link');
+
+// let x;
+
+// x = dogs[0];
+
+// x = dogs[0] + dogs[2];
+
+// x = `My current dogs are ${dogsArr[0]} and ${dogsArr[1]}.`;
+
+// dogs[3] = 'Beau';
+
+// x = dogs;
+
+// console.log(dogsArr);
+// console.log(dogs);
+// console.log(x);
+
+let x;
+
+const arr = [34, 55, 95, 20, 15];
+
+// arr.push(200);
+
+// arr.pop();
+
+// arr.unshift(99);
+
+// arr.shift();
+
+// arr.reverse();
+
+x = arr.includes(200);
+
+x = arr.indexOf(0);
+
+x = arr.slice(1, 4);
+
+// x = arr.splice(1, 4);
+
+// x = arr.splice(3, 1);
+x = arr.splice(1, 4).reverse().toString().charAt(0);
+
+console.log(x);
