@@ -21,27 +21,47 @@
 //****************************
 //Number Challenge
 
-let x = Math.floor(Math.random() * 100 + 1);
+// let x = Math.floor(Math.random() * 100 + 1);
 
-let y = Math.floor(Math.random() * 50 + 1);
+// let y = Math.floor(Math.random() * 50 + 1);
 
-let sum = x + y;
-let sumOutPut = `${x} + ${y} = ${sum}`;
+// let sum = x + y;
+// let sumOutPut = `${x} + ${y} = ${sum}`;
 
-let difference = x - y;
-let differenceOutPut = `${x} - ${y} = ${difference}`;
+// let difference = x - y;
+// let differenceOutPut = `${x} - ${y} = ${difference}`;
 
-let product = x * y;
-let productOutPut = `${x} * ${y} = ${product}`;
+// let product = x * y;
+// let productOutPut = `${x} * ${y} = ${product}`;
 
-let quotient = x / y;
-let quotientOutPut = `${x} / ${y} = ${quotient}`;
+// let quotient = x / y;
+// let quotientOutPut = `${x} / ${y} = ${quotient}`;
 
-let remainder = x % y;
-let remainderOutPut = `${x} % ${y} = ${remainder}`;
+// let remainder = x % y;
+// let remainderOutPut = `${x} % ${y} = ${remainder}`;
 
-console.log(sumOutPut);
-console.log(differenceOutPut);
-console.log(productOutPut);
-console.log(quotientOutPut);
-console.log(remainderOutPut);
+// console.log(sumOutPut);
+// console.log(differenceOutPut);
+// console.log(productOutPut);
+// console.log(quotientOutPut);
+// console.log(remainderOutPut);
+
+//****************************
+
+//Date and Time Practice
+// let d;
+
+// d = new Date();
+
+// d = d.toString();
+
+// d = new Date(2021, 0, 10, 12, 30, 0);
+// d = new Date("07/10/2021 12:30");
+// d = new Date("2022-07-10");
+// d = new Date("07-10-2022");
+
+// d = Date.now();
+
+// d = new Date(1717978810640);
+
+// console.log(d);
