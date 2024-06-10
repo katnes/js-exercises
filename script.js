@@ -88,9 +88,9 @@
 // console.log(dogs);
 // console.log(x);
 
-let x;
+// let x;
 
-const arr = [34, 55, 95, 20, 15];
+// const arr = [34, 55, 95, 20, 15];
 
 // arr.push(200);
 
@@ -102,15 +102,50 @@ const arr = [34, 55, 95, 20, 15];
 
 // arr.reverse();
 
-x = arr.includes(200);
+// x = arr.includes(200);
 
-x = arr.indexOf(0);
+// x = arr.indexOf(0);
 
-x = arr.slice(1, 4);
+// x = arr.slice(1, 4);
 
-// x = arr.splice(1, 4);
+// // x = arr.splice(1, 4);
 
-// x = arr.splice(3, 1);
-x = arr.splice(1, 4).reverse().toString().charAt(0);
+// // x = arr.splice(3, 1);
+// x = arr.splice(1, 4).reverse().toString().charAt(0);
 
-console.log(x);
+// console.log(x);
+// let x;
+
+// let dogs = ['hounds', 'herding', 'working'];
+// let cats = ['lap', 'angry', 'lazy'];
+
+// // cats.push(dogs);
+
+// // x = cats[3][1];
+
+// const allPets = [dogs, cats];
+
+// x = allPets[0][0];
+
+// x = dogs.concat(cats);
+
+// //Spread Operator (...)
+// x = [...dogs, ...cats];
+
+// console.log(x);
+
+//****************************
+const arr = [1, 2, 3, 4, 5];
+
+arr.reverse();
+arr.push(0);
+arr.unshift(6);
+
+console.log(arr);
+
+let x2;
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [5, 6, 7, 8, 9, 10];
+
+x2 = arr1.slice(0, 4).concat(arr2);
+console.log(x2);
